@@ -1,6 +1,19 @@
+:root {
+    --background: #212121;
+    --background-gradient-radial: radial-gradient(circle, #2b1055, #7597de);
+    --gradient-horizontal: linear-gradient(to right, #AF4163, #7F35B0);
+    --cor-paragrafo: #efefeff5;
+    --cor-titulo: #EFEFEF;
+
+    --text-titulo: 'Syncopate';
+}
+
+
+
 body {
     width: 100%;
     display: flex;
+    background-color: var(--background);
     flex-direction: column;
 }
 
@@ -20,11 +33,11 @@ header {
 }
 
 .menu {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
 #menu-open{
     cursor: pointer;
@@ -62,14 +75,16 @@ header {
 
 .buttons > button {
     padding: 10px 20px;
-    background-color: black;
+    background: var(--gradient-horizontal);
+    font-weight: 600;
     color: white;
 }
 
 .buttons > .btn-secondary {
-    background-color: transparent;
-    border: 1px solid black;
-    color: black;
+    background: transparent;
+    border: 1px solid transparent;
+    border-image: var(--gradient-horizontal) 1;
+    color: var(--cor-paragrafo);
 }
 
 .buttons-02 {
@@ -80,14 +95,16 @@ header {
 
 .buttons-02 > button {
     padding: 10px 20px;
-    background-color: black;
+    background: var(--gradient-horizontal);
+    font-weight: 600;
     color: white;
 }
 
 .buttons-02 > .btn-secondary {
-    background-color: transparent;
-    border: 1px solid black;
-    color: black;
+    background: transparent;
+    border: 1px solid transparent;
+    border-image: var(--gradient-horizontal) 1;
+    color: var(--cor-paragrafo);
 }
 
 .header-mega-menu {
@@ -179,8 +196,9 @@ main {
 }
 
 .hero-text > h1 {
+    font-family: var(--text-titulo);
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .hero-text > p {
@@ -194,14 +212,16 @@ main {
 
 .buttons-hero>button {
     padding: 10px 20px;
-    background-color: black;
+    background: var(--gradient-horizontal);
+    font-weight: 600;
     color: white;
 }
 
 .buttons-hero>.btn-secondary {
-    background-color: transparent;
-    border: 1px solid black;
-    color: black;
+    background: transparent;
+    border: 1px solid transparent;
+    border-image: var(--gradient-horizontal) 1;
+    color: var(--cor-paragrafo);
 }
 
 .hero-carousel {
@@ -232,7 +252,7 @@ footer {
 
 .footer-card {
     padding: 32px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .footer-container {
@@ -255,7 +275,7 @@ footer {
 }
 
 .footer-content-top >img {
-    width: 84px;
+    width: 128px;
     height: 36px;
 }
 
@@ -267,8 +287,9 @@ footer {
 }
 
 .footer-text > h2 {
+    font-family: var(--text-titulo);
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .buttons-footer {
