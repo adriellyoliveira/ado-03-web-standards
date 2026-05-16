@@ -61,6 +61,10 @@
         padding: 8px 0px;
     }
 
+    .blog > img {
+    width: 160px;
+}
+
     .hero-header {
         gap: 0px;
     }
