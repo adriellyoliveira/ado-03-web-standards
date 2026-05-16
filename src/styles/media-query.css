@@ -1,86 +1,3 @@
-@media screen and (min-width: 768px) {
-    .header-container {
-        padding: 24px 64px;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .header-content {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .menu {
-        width: 84px;
-        height: 36px;
-    }
-
-    #menu-open {
-        display: none;
-    }
-
-    #itens {
-        display: flex !important;
-    }
-
-    #itens03 {
-        display: none;
-    }
-
-    .header-nav {
-        flex-direction: row;
-        display: flex;
-        align-items: center;
-    }
-
-    .drop-down {
-        gap: 4px;
-    }
-
-    .buttons {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .buttons-02 {
-        display: none !important;
-    }
-
-    .header-mega-menu {
-        padding: 24px 64px;
-        display: flex;
-    }
-
-    .hero-text>h1 {
-        font-size: 56px;
-    }
-
-    .hero-content {
-        padding: 112px 64px;
-    }
-
-    footer {
-        padding: 80px 64px;
-    }
-
-    .footer-text>h2 {
-        font-size: 56px;
-    }
-
-    .footer-link-list {
-        flex-direction: row;
-    }
-
-    .footer-credits {
-        flex-direction: row;
-    }
-
-    .footer-nav-credits {
-        flex-direction: row;
-    }
-}
-
-
 @media screen and (min-width: 1280px) {
     header {
         padding: 0;
@@ -190,4 +107,87 @@
     }
 
 
+}
+
+
+@media screen and (min-width: 768px) {
+    .header-container {
+        padding: 24px 64px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-content {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu {
+        width: 84px;
+        height: 36px;
+    }
+
+    #menu-open {
+        display: none;
+    }
+
+    #itens {
+        display: flex !important;
+    }
+
+    #itens03 {
+        display: none;
+    }
+
+    .header-nav {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+
+    .drop-down {
+        gap: 4px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .buttons-02 {
+        display: none !important;
+    }
+
+    .header-mega-menu {
+        padding: 24px 64px;
+        display: flex;
+    }
+
+    .hero-text>h1 {
+        font-size: 56px;
+    }
+
+    .hero-content {
+        padding: 112px 64px;
+    }
+
+    footer {
+        padding: 80px 64px;
+    }
+
+    .footer-text>h2 {
+        font-size: 56px;
+    }
+
+    .footer-link-list {
+        flex-direction: row;
+    }
+
+    .footer-credits {
+        flex-direction: row;
+    }
+
+    .footer-nav-credits {
+        flex-direction: row;
+    }
 }
