@@ -67,6 +67,11 @@ header {
     justify-content: space-between;
 }
 
+.btn-drop-down {
+    display: flex;
+    align-items: center;
+}
+
 .buttons {
     display: none;
     flex-direction: column;
