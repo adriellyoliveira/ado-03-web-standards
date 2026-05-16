@@ -1,6 +1,6 @@
 :root {
     --background: #212121;
-    --background-gradient-radial: radial-gradient(circle, #2b1055, #7597de);
+    --background-gradient-radial: radial-gradient(circle, #8436a615 7%, #212121);
     --gradient-horizontal: linear-gradient(to right, #AF4163, #7F35B0);
     --cor-paragrafo: #efefeff5;
     --cor-titulo: #EFEFEF;
@@ -177,6 +177,7 @@ main {
 .hero-header {
     display: flex;
     flex-direction: column;
+    background: var(--background-gradient-radial);
     gap: 48px;
 }
 
@@ -227,6 +228,7 @@ main {
 .hero-carousel {
     display: flex;
     flex-direction: column;
+    padding: 0px 0px 64px;
     gap: 16px;
     overflow: hidden;
 }
@@ -299,14 +301,16 @@ footer {
 
 .buttons-footer>button {
     padding: 10px 20px;
-    background-color: black;
+    background: var(--gradient-horizontal);
+    font-weight: 600;
     color: white;
 }
 
 .buttons-footer>.btn-secondary {
-    background-color: transparent;
-    color: black;
-    border: 1px solid black;
+    background: transparent;
+    border: 1px solid transparent;
+    border-image: var(--gradient-horizontal) 1;
+    color: var(--cor-paragrafo);
 }
 
 .footer-links {
