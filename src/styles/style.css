@@ -5,7 +5,8 @@
     --cor-paragrafo: #efefeff5;
     --cor-titulo: #EFEFEF;
 
-    --text-titulo: 'Syncopate';
+    --font-titulo: 'Syncopate', sans-serif;
+    --font-body: 'Poppins', sans-serif;
 }
 
 
@@ -203,7 +204,7 @@ main {
 }
 
 .hero-text > h1 {
-    font-family: var(--text-titulo);
+    font-family: var(--font-titulo);
     font-size: 40px;
     font-weight: 500;
 }
@@ -294,7 +295,7 @@ footer {
 }
 
 .footer-text > h2 {
-    font-family: var(--text-titulo);
+    font-family: var(--font-titulo);
     font-size: 40px;
     font-weight: 500;
 }
